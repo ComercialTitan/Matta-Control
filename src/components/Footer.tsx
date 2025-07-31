@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaInstagram } from 'react-icons/fa'; // 👈 importando o ícone do Instagram
 
 const Footer = () => {
   return (
@@ -36,6 +37,17 @@ const Footer = () => {
                   comercialmattacontrol@gmail.com
                 </a>
               </p>
+              <p>
+                <span className="font-semibold">Instagram:</span>{' '}
+                <a
+                  href="https://www.instagram.com/mattacontrol"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-yellow-500 hover:text-yellow-400 transition-colors"
+                >
+                  <FaInstagram className="mr-2" /> @mattacontrol
+                </a>
+              </p>
             </div>
           </div>
           
@@ -71,4 +83,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
