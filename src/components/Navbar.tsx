@@ -5,29 +5,37 @@ const Navbar = () => {
     <header className="w-full bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <img src="/img/logo.png" alt="Logo InovControl" className="h-10 w-auto" />
+        <div className="flex items-center space-x-3">
+          <img
+            src="/img/logo.png"
+            alt="Logo Matta Control"
+            className="h-20 md:h-20 w-auto rounded-full"
+          />
         </div>
 
         {/* Menu */}
         <nav className="hidden md:flex space-x-6 text-gray-800 font-medium">
-          <a href="#servicos" className="hover:text-green-600 transition">Serviços</a>
-          <a href="#garantia" className="hover:text-green-600 transition">Garantia</a>
-          <a href="#clientes" className="hover:text-green-600 transition">Clientes</a>
-          <a href="#sobre" className="hover:text-green-600 transition">Sobre</a>
-          <a href="#contato" className="hover:text-green-600 transition">Contato</a>
+          <a href="#servicos" className="hover:text-[#F0620E] transition text-base md:text-lg">Serviços</a>
+          <a href="#garantia" className="hover:text-[#F0620E] transition text-base md:text-lg">Garantia</a>
+          <a href="#clientes" className="hover:text-[#F0620E] transition text-base md:text-lg">Clientes</a>
+          <a href="#sobre" className="hover:text-[#F0620E] transition text-base md:text-lg">Sobre</a>
+          <a href="#contato" className="hover:text-[#F0620E] transition text-base md:text-lg">Contato</a>
         </nav>
 
         {/* Contato */}
         <div className="flex items-center space-x-4">
-          <span className="hidden md:block text-sm text-gray-700">
-            📞 (19) 99692-5836
-          </span>
+          <p>
+            <span className="hidden md:block text-base text-gray-700 font-semibold">
+              <a href="tel:+5531991173130" className="text-yellow-500 hover:text-yellow-400 transition-colors">
+                 📞 (31) 99117-3130
+              </a>
+            </span>{' '}
+          </p>
           <a
-            href="https://wa.me/5519996925836"
+            href="https://wa.me/5531991173130"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-2 rounded-full transition font-semibold"
+            className="bg-[#F0620E] hover:bg-[#f0550e] text-white text-base px-4 py-2 rounded-full transition font-semibold"
           >
             Fale no WhatsApp
           </a>

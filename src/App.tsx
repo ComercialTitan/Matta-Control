@@ -8,6 +8,7 @@ import HowItWorks from './components/HowItWorks';
 import FAQ from './components/FAQ';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import WhatsAppFloat from './components/WhatsAppFloat';
 
 function App() {
   return (
@@ -15,13 +16,15 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <About />
       <HowItWorks />
+      <About />
       <FAQ />
       <ContactForm />
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 }
 
 export default App;
+
