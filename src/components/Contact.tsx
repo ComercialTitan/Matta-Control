@@ -68,7 +68,7 @@ const Contact: React.FC = () => {
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
         <button
             onClick={handleWhatsAppClick}
-            className="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2"
+            className="bg-orange-500 hover:bg-orange-400 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2"
         >
             <span className="text-xl">💬</span>
             Fale com um especialista agora
@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
 
         <button
             onClick={handlePhoneClick}
-            className="bg-white hover:bg-gray-100 text-red-500 font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2"
+            className="bg-orange-500 hover:bg-orange-400 text-gray-200 font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2"
         >
             <span className="text-xl">📞</span>
             (31) 99117-3130
@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
             href="https://www.instagram.com/mattacontrol/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2"
+            className="bg-orange-500 hover:bg-orange-400 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2"
         >
             <span className="text-xl">📸</span>
             Instagram
