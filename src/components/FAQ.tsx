@@ -14,7 +14,7 @@ const FAQ = () => {
     },
     {
       question: "É seguro para meus pets e filhos?",
-      answer: "Sim, utilizamos produtos registrados na ANVISA e seguros para crianças e animais domésticos. Nossos técnicos são treinados para aplicar os produtos de forma segura, seguindo todos os protocolos de segurança."
+      answer: "Sim, utilizamos produtos registrados e seguros para crianças e animais domésticos. Nossos técnicos são treinados para aplicar os produtos de forma segura, seguindo todos os protocolos de segurança."
     },
     {
       question: "Qual o prazo de garantia?",

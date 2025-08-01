@@ -15,7 +15,7 @@ const Hero = () => {
           Livre-se das pragas com rapidez e garantia
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-8 md:mb-12 max-w-3xl mx-auto leading-relaxed">
-          Atendimento no mesmo dia | Parcelamos em até 10x | Serviço autorizado pela Anvisa
+          Atendimento no mesmo dia | Parcelamos a sua dedetização sem juros | Serviço com qualidade e garantia
         </p>
         <a
           href="https://wa.me/5531991173130?text=Olá! Quero me livrar das pragas agora!"

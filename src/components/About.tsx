@@ -12,7 +12,7 @@ const About = () => {
     {
       icon: "💳",
       title: "Parcelamento facilitado",
-      description: "Parcelamos em até 10x no cartão para facilitar seu pagamento"
+      description: "Parcelamos sem juros no cartão para facilitar seu pagamento"
     },
     {
       icon: "🐕",
@@ -31,8 +31,8 @@ const About = () => {
     },
     {
       icon: "📋",
-      title: "Autorização Anvisa",
-      description: "Empresa licenciada e com autorização da Anvisa em dia"
+      title: "Especializada",
+      description: "Empresa especializada no combate a pragas urbanas, descupinização e outros serviços"
     }
   ];
 
