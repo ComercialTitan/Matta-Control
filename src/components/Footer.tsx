@@ -53,10 +53,9 @@ const Footer = () => {
           
           {/* Endereço */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Endereço</h3>
+            <h3 className="text-xl font-semibold mb-4">Área de atuação</h3>
             <p className="text-gray-400">
-              Rua Paraúna, 70 - Serrano<br />
-              Belo Horizonte - MG
+              Belo Horizonte - Região Metropolitana
             </p>
           </div>
         </div>
