@@ -66,7 +66,7 @@ const HowItWorks = () => {
         {/* Depoimento */}
         <div className="bg-white p-6 rounded-lg shadow-lg text-center mb-12 max-w-2xl mx-auto">
           <p className="text-gray-600 text-sm leading-relaxed italic">
-            "Não importa quantas vezes acione a garantia, sempre estaremos prontos para te atender."
+            "Ao acionar a garantia, sempre estaremos prontos para te atender."
           </p>
           <p className="text-[#f0550e] font-semibold mt-2">Prezamos excelência e qualidade</p>
         </div>
